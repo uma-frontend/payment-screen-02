@@ -1,0 +1,110 @@
+/*UNIVERSAL*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   min-height: 100%;
+}
+/*BODY*/
+body{
+   font-family: Roboto, sans-serif;
+   background: url(../img/background.jpg) 50%;
+   background-size: cover;
+   min-height: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+/*CARD*/
+.card {
+   width: 100%;
+   max-width: 340px;
+   background-color: #fff;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+}
+.card__pags {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0px;
+}
+.card__pag {
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   background-color: #dedede;
+   margin-right: 7px;
+}
+.card__pag:last-child{
+   margin-right: 0px;
+}
+.pag__active {
+   background-color: #aaa;
+}
+.card__heading {
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+   font-size: 20px;
+   letter-spacing: 1px;
+}
+.card__items {
+   display: flex;
+   flex-direction: column;
+}
+.card__item {
+   padding: 15px 15px 15px 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-top: 1px solid #dedede;
+   cursor: pointer;
+   transition: background 0.15s ease-in-out;
+}
+.card__item:hover{
+   background-color: #f1f1f1;
+}
+.card__item-name {
+   margin: 0 auto 0 20px;
+   text-transform: uppercase;
+   font-size: 13px;
+   color: #aaa;
+}
+.card__item-check {
+   display: none;
+}
+.card__item-active .card__item-name {
+   color: #000;
+}
+.card__item-active .card__item-check{
+   display: block;
+}
+.card__link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color: #fff;
+   background-color: #5A8BDD;
+   padding: 20px 0px;
+   text-transform: uppercase;
+   font-weight: 500;
+   border-radius: 0 0 4px 4px;
+   position: relative;
+}
+.card__link:hover{
+   background-color: #558EF3;
+}
+.card__link:active{
+   top: 1px;
+}
+.card__link-name {
+   margin-right: 6px;
+}
+.card__link-icon {
+   width: 20px;
+}
