@@ -1,42 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Loop 1 - Step 2</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <div class="card">
-   <div class="card__pags">
-      <span class="card__pag pag__active"></span>
-      <span class="card__pag"></span>
-      <span class="card__pag"></span>
-   </div>
-   <h1 class="card__heading">Payment method</h1>
-   <div class="card__items">
-      <div class="card__item">
-         <img src="img/visa.svg" alt="visa icon" class="card__item-icon" width="35px">
-         <h3 class="card__item-name">Visa</h3>
-         <img src="img/check.svg" alt="check icon" class="card__item-check">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Payment Screen - 02</title>
+    <!--GOOGLE FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <!--STYLES-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!--CARD PAYMENT-->
+    <div class="card">
+      <div class="card__pags">
+         <span class="card__pag pag__active"></span>
+        <span class="card__pag"></span>
+        <span class="card__pag"></span>
       </div>
-      <div class="card__item">
-         <img src="img/mastercard.svg" alt="mastercard icon" class="card__item-icon" width="35px">
-         <h3 class="card__item-name">mastercard</h3>
-         <img src="img/check.svg" alt="check icon" class="card__item-check item__active">
+      <h1 class="card__heading">Payment method</h1>
+      <div class="card__items">
+        <div class="card__item">
+          <img
+            src="img/visa.svg"
+            alt="visa icon"
+            class="card__item-icon"
+            width="35px"
+          />
+          <h3 class="card__item-name">Visa</h3>
+          <img src="img/check.svg" alt="check icon" class="card__item-check" />
+        </div>
+        <div class="card__item">
+          <img
+            src="img/mastercard.svg"
+            alt="mastercard icon"
+            class="card__item-icon"
+            width="35px"
+          />
+          <h3 class="card__item-name">mastercard</h3>
+          <img
+            src="img/check.svg"
+            alt="check icon"
+            class="card__item-check item__active"
+          />
+        </div>
+        <div class="card__item">
+          <img
+            src="img/maestro.svg"
+            alt="maestro icon"
+            class="card__item-icon"
+            width="35px"
+          />
+          <h3 class="card__item-name">maestro</h3>
+          <img src="img/check.svg" alt="check icon" class="card__item-check" />
+        </div>
       </div>
-      <div class="card__item">
-         <img src="img/maestro.svg" alt="maestro icon" class="card__item-icon" width="35px">
-         <h3 class="card__item-name">maestro</h3>
-         <img src="img/check.svg" alt="check icon" class="card__item-check">
-      </div>
-   </div>
-   <a href="#" class="card__link">
-      <span class="card__link-name">next step</span>
-      <img src="img/arrow.svg" alt="arrow icon" class="card__link-icon">
-   </a>
-  </div>
-</body>
+      <a href="#" class="card__link">
+        <span class="card__link-name">next step</span>
+        <img src="img/arrow.svg" alt="arrow icon" class="card__link-icon" />
+      </a>
+    </div>
+  </body>
 </html>
